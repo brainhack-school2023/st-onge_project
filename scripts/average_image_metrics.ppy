@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 import scipy 
 from nilearn import plotting
 
-### DATA ANALYSIS PIPELINE TO ANALYZE COMPUTED NODDI METRICS 
+### CREATE AVERAGE IMAGE FROM EXTRACTED NODDI METRICS 
 
 # Path to dataset directory : 
 dataset_directory = 'D:/1_Doctorat/Projets/BMPD/derivatives/noddi_processing'
