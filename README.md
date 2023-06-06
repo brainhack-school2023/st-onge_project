@@ -3,7 +3,7 @@
 
 # Identifying Potential Biomarkers for Parkinson’s Disease Using Neurite Orientation Dispersion and Diffusion Imaging (NODDI) 
 
-About me
+ABOUT ME 
 ---
 <a href="https://github.com/samuellestonge">
    <img src="https://avatars.githubusercontent.com/u/57685132?v=4" width="100px;" alt=""/>
@@ -12,7 +12,7 @@ About me
 
 Hi everyone! My name is Samuelle St-Onge and I am a first year PhD student at Polytechnique Montréal, Canada. Prior to my PhD, I also did a master's in healthcare technology engineering at ÉTS in Montréal, as well as a Bachelor's degree in Mechanical engineering at Université de Moncton, New Brunswick, Canada. During my PhD, most of my work will be focused on spinal cord imaging for pediatric populations. 
 
-Hi everyone! My name is Samuelle St-Onge and I am a PhD student at Polytechnique Montréal, Canada. During my PhD I will be working on spinal cord imaging for pediatric populations.
+PROJECT SUMMARY 
 ---
 type: "project" # DON'T TOUCH THIS ! :)
 date: "2023-05-08" # Date you first upload your project.
