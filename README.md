@@ -48,7 +48,8 @@ My project aims to use an existing open-source NODDI toolbox and adapt it to a s
 ## TOOLS AND METHODS
 ---
 
-![image](https://github.com/brainhack-school2023/st-onge_project/assets/57685132/88a35d55-c648-4fe9-9624-f539ac260975)
+![image](https://github.com/brainhack-school2023/st-onge_project/assets/57685132/0583b4c0-5d8c-40b5-9adf-4d2d486674bb)
+
 
 
 
