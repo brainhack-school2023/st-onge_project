@@ -14,10 +14,27 @@ Hi everyone! My name is Samuelle St-Onge and I am a first year PhD student at Po
 
 ## PROJECT DEFINITION
 ---
-Parkinson’s disease is a neurogenerative disease for which we currently do not have any cure. Finding new biomarkers for Parkinson's could help diagnose the disease at an earlier stage, therefore being able to start treatment early and slow disease progression. 
+### Parkinson's disease
+Parkinson’s disease is a neurogenerative disease for which we currently do not have any cure. Although there are treatment options available, early diagnosis is key to be able to start the treatment early and slow down the progression of the disease. However, since there there is still a lot of things we don't quite understand about Parkinson's disease, it is oftentimes difficult to diagnose at early stages. During this project, I will finding new biomarkers for Parkinson's, which could help diagnose the disease at an earlier stage, therefore being able to start treatment early and slow disease progression. 
 
+### Diffusion MRI and Neurite Orientation Dispersion and Diffusion Imaging (NODDI)
 In recent work, diffusion MRI has shown a potential interest for finding biomarkers in the context of neurodegenerative diseases such as Parkinson, using Neurite Orientation Dispersion and Diffusion Imaging, commonly known as NODDI.  
 
+#### What is NODDI? 
+NODDI is a diffusion MRI technique which aims to extract metrics based on the morphology of neurites, which are composed of dendrites and axons. 
+The most common metrics that can be extracted from NODDI are : 
+
+1. Orientation Dispersion Index (ODI)
+- Measures the variability in neurite orientation
+
+2. Neurite Density Index (NDI) 
+- Measures the neurite density 
+
+3. Isotropic Volume Fraction (Viso) 
+- Measures
+
+
+### Project summary 
 My project aims to use an existing open-source NODDI toolbox and adapt it to a spinal cord diffusion MRI dataset containing both healthy subjects and subjects diagnosed with Parkinson's disease. Then, using the python data analysis tools and skills I have learned during BrainHack School, I will analyze the extracted metrics from the NODDI model fitting to explore potential biomarkers for Parkinson's disease.
 
 ### Why NODDI for Parkinson's disease?
