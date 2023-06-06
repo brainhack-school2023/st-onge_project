@@ -51,7 +51,10 @@ My project aims to use an existing open-source NODDI toolbox and adapt it to a s
 ![image](https://github.com/brainhack-school2023/st-onge_project/assets/57685132/0583b4c0-5d8c-40b5-9adf-4d2d486674bb)
 
 ### For NODDI fitting :
-- Matlab
+Matlab : 
+- NODDI Matlab Toolbox from UCL Microstructure Imaging Group (available here : http://mig.cs.ucl.ac.uk/index.php?n=Tutorial.NODDImatlab)
+- Matlab Parallel Computing Toolbox
+- Matlab Optimization Toolbox
 
 ### For data analysis : 
 - Python : `matplotlib`, `nibabel`, `seaborn`, `nilearn`
