@@ -32,7 +32,7 @@ My project aims to use an existing open-source NODDI toolbox and adapt it to a s
 ### The main objectives for this project were: 
 
 
-![image](https://github.com/brainhack-school2023/st-onge_project/assets/57685132/22cb85b1-6749-4d76-b9af-576514092f20)
+![image](https://github.com/brainhack-school2023/st-onge_project/assets/57685132/f727afd4-ffea-4ed1-b612-e2a47e3fae12)
 
 
 ### My personal objectives for this project were: 
