@@ -52,7 +52,7 @@ My project aims to use an existing open-source NODDI toolbox and adapt it to a s
 
 ### For NODDI fitting :
 Matlab : 
-- [NODDI Matlab Toolbox from UCL Microstructure Imaging Group](available here : http://mig.cs.ucl.ac.uk/index.php?n=Tutorial.NODDImatlab)
+- [NODDI Matlab Toolbox](http://mig.cs.ucl.ac.uk/index.php?n=Tutorial.NODDImatlab) from UCL Microstructure Imaging Group
 - [Matlab Parallel Computing Toolbox](https://www.mathworks.com/products/parallel-computing.html)
 - [Matlab Optimization Toolbox](https://www.mathworks.com/products/optimization.html)
 
