@@ -53,13 +53,11 @@ More specifically, the project aims to perform NODDI fitting on a diffusion MRI 
 
 Following NODDI fitting, the second main objective was to extract the NODDI metrics (ODI, NDI, Viso) to be able to do some data analysis using Python. 
 
-#### *** Identifying potential biomarkers for Parkinson's disease
-
-As a long-term goal, this project aims to identify potential biomarkers for Parkinson's disease using the extracted NODDI metrics.
-
-
 ![image](https://github.com/brainhack-school2023/st-onge_project/assets/57685132/f727afd4-ffea-4ed1-b612-e2a47e3fae12)
 
+### Long-term goal
+
+As a long-term goal, this project aims to identify potential biomarkers for Parkinson's disease using the extracted NODDI metrics.
 
 ### My personal objectives for this project were: 
 
