@@ -32,16 +32,30 @@ The most common metrics that can be extracted from NODDI are :
 ### Project summary 
 My project aims to use an existing open-source NODDI toolbox and adapt it to a spinal cord diffusion MRI dataset containing both healthy subjects and subjects diagnosed with Parkinson's disease. Then, using the python data analysis tools and skills I have learned during BrainHack School, I will analyze the extracted metrics from the NODDI model fitting to explore potential biomarkers for Parkinson's disease.
 
-### Why NODDI for Parkinson's disease?
+#### Why NODDI for Parkinson's disease?
+- Literature has shown an interest in diffusion MRI to identify potential Parkinson's disease biomarkers in brain images (Zhang et al., 2012)
+- et al. (2012) found links between neurite morphology and other neurodegenerative diseases, such as multiple sclerosis
 
-
-### Why spinal cord images for Parkinson's disease biomarkers? 
-
-
+#### Why spinal cord images for Parkinson's disease biomarkers? 
+- Spinal cord lesions have been recorded in Parkinson's disease patients (Tredici et al., 2012)
+- To our knowledge, NODDI in the spinal cord for Parkinson's disease patients has not yet been studied
 
 ## OBJECTIVES
 ---
-### The main objectives for this project were: 
+### Main objectives : 
+The main objectives of this project were :
+
+#### 1. Perform NODDI fitting
+
+More specifically, the project aims to perform NODDI fitting on a diffusion MRI dataset with Parkinson's disease patients at various stages of the disease, as well as control subjects. The goal was to use a pre-existing NODDI toolbox (for example, a Matlab Toolbox), and to write a script to be able to perform multi-subject fitting using said toolbox. Since NODDI fitting is computationally expensive, I wanted to implement some sort of parallel computing to be able to speed up the process for all my subjects. 
+
+#### 2. Extract and analyze NODDI metrics
+
+Following NODDI fitting, the second main objective was to extract the NODDI metrics (ODI, NDI, Viso) to be able to do some data analysis using Python. 
+
+#### *** Identifying potential biomarkers for Parkinson's disease
+
+As a long-term goal, this project aims to identify potential biomarkers for Parkinson's disease using the extracted NODDI metrics.
 
 
 ![image](https://github.com/brainhack-school2023/st-onge_project/assets/57685132/f727afd4-ffea-4ed1-b612-e2a47e3fae12)
