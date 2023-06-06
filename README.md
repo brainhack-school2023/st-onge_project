@@ -57,7 +57,11 @@ Matlab :
 - Matlab Optimization Toolbox
 
 ### For data analysis : 
-- Python : `matplotlib`, `nibabel`, `seaborn`, `nilearn`
+Python :
+- [`matplotlib`](https://matplotlib.org/)
+- [`nibabel`](https://nipy.org/nibabel/)
+- [`seaborn`](https://seaborn.pydata.org/)
+- [`nilearn`](https://nilearn.github.io/stable/index.html)
 
 ### For version control : 
 - Git and Github
