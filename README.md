@@ -32,7 +32,7 @@ My project aims to use an existing open-source NODDI toolbox and adapt it to a s
 ### The main objectives for this project were: 
 
 
-![image](https://github.com/brainhack-school2023/st-onge_project/assets/57685132/a6f20407-3086-46a9-9708-cbb05f4fc480)
+![image](https://github.com/brainhack-school2023/st-onge_project/assets/57685132/22cb85b1-6749-4d76-b9af-576514092f20)
 
 
 ### My personal objectives for this project were: 
@@ -56,7 +56,6 @@ My project aims to use an existing open-source NODDI toolbox and adapt it to a s
 
 ## RESULTS
 ---
-![image](https://github.com/brainhack-school2023/st-onge_project/assets/57685132/0e318560-1cef-4e12-8a0c-b496efbb08cb)
 
 ![image](https://github.com/brainhack-school2023/st-onge_project/assets/57685132/54f759f4-462b-4d9c-8c86-4f56b0f763e0)
 ![regression_plots](https://github.com/brainhack-school2023/st-onge_project/assets/57685132/40ff403c-f77a-490f-a397-7b3532867daf)
