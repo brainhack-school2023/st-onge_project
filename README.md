@@ -22,16 +22,15 @@ In recent work, diffusion MRI has shown a potential interest for finding biomark
 
 #### What is NODDI? 
 NODDI is a diffusion MRI technique which aims to extract metrics based on the morphology of neurites, which are composed of dendrites and axons. 
+
 The most common metrics that can be extracted from NODDI are : 
 
 1. Orientation Dispersion Index (ODI)
-- Measures the variability in neurite orientation
-
 2. Neurite Density Index (NDI) 
-- Measures the neurite density 
-
 3. Isotropic Volume Fraction (Viso) 
-- Measures
+
+![image](https://github.com/brainhack-school2023/st-onge_project/assets/57685132/19252a60-9459-44f4-974f-028b5c024f60)
+
 
 
 ### Project summary 
