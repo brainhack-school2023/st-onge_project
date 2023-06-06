@@ -56,7 +56,7 @@ Matlab :
 - [Matlab Parallel Computing Toolbox](https://www.mathworks.com/products/parallel-computing.html)
 - [Matlab Optimization Toolbox](https://www.mathworks.com/products/optimization.html)
 
-### Following NODDI fitting : 
+### For registration and NODDI metric extraction : 
 - The [Spinal Cord Toolbox](https://spinalcordtoolbox.com/) (De Leener et al., 2017)
 
 ### For data analysis : 
