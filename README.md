@@ -52,6 +52,8 @@ My project aims to use an existing open-source NODDI toolbox and adapt it to a s
 
 
 
+- `Git` and `Github`
+- Python : `matplotlib`, `nibabel`, `seaborn`, `nilearn`
 
 
 ## RESULTS
@@ -60,11 +62,6 @@ My project aims to use an existing open-source NODDI toolbox and adapt it to a s
 ![image](https://github.com/brainhack-school2023/st-onge_project/assets/57685132/54f759f4-462b-4d9c-8c86-4f56b0f763e0)
 ![regression_plots](https://github.com/brainhack-school2023/st-onge_project/assets/57685132/40ff403c-f77a-490f-a397-7b3532867daf)
 
-
-
-
-## PROJECT SUMMARY 
----
 
 
 ## DELIVERABLES
