@@ -5,6 +5,8 @@
    <br /><sub><b>Samuelle St-Onge </b></sub>
 </a>
 
+Hi everyone! My name is Samuelle St-Onge and I am a first year PhD student at Polytechnique Montréal, Canada. Prior to my PhD, I also did a master's in healthcare technology engineering at ÉTS in Montréal, as well as a Bachelor's degree in Mechanical engineering at Université de Moncton, New Brunswick, Canada. During my PhD, most of my work will be focused on spinal cord imaging for pediatric populations. 
+
 Hi everyone! My name is Samuelle St-Onge and I am a PhD student at Polytechnique Montréal, Canada. During my PhD I will be working on spinal cord imaging for pediatric populations.
 ---
 type: "project" # DON'T TOUCH THIS ! :)
