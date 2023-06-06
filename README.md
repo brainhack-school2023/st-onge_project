@@ -18,7 +18,7 @@ Hi everyone! My name is Samuelle St-Onge and I am a first year PhD student at Po
 Parkinson’s disease is a neurogenerative disease for which we currently do not have any cure. Although there are treatment options available, early diagnosis is key to be able to start the treatment early and slow down the progression of the disease. However, since there there is still a lot of things we don't quite understand about Parkinson's disease, it is oftentimes difficult to diagnose at early stages. During this project, I will finding new biomarkers for Parkinson's, which could help diagnose the disease at an earlier stage, therefore being able to start treatment early and slow disease progression. 
 
 ### Diffusion MRI and Neurite Orientation Dispersion and Diffusion Imaging (NODDI)
-![image](https://github.com/brainhack-school2023/st-onge_project/assets/57685132/19252a60-9459-44f4-974f-028b5c024f60) In recent work, diffusion MRI has shown a potential interest for finding biomarkers in the context of neurodegenerative diseases such as Parkinson, using Neurite Orientation Dispersion and Diffusion Imaging, commonly known as NODDI.  
+In recent work, diffusion MRI has shown a potential interest for finding biomarkers in the context of neurodegenerative diseases such as Parkinson, using Neurite Orientation Dispersion and Diffusion Imaging, commonly known as NODDI.  
 
 #### What is NODDI? 
 NODDI is a diffusion MRI technique which aims to extract metrics based on the morphology of neurites, which are composed of dendrites and axons. 
