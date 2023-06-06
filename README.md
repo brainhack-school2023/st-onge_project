@@ -50,10 +50,14 @@ My project aims to use an existing open-source NODDI toolbox and adapt it to a s
 
 ![image](https://github.com/brainhack-school2023/st-onge_project/assets/57685132/0583b4c0-5d8c-40b5-9adf-4d2d486674bb)
 
+### For NODDI fitting :
+- Matlab
 
-
-- `Git` and `Github`
+### For data analysis : 
 - Python : `matplotlib`, `nibabel`, `seaborn`, `nilearn`
+
+### For version control : 
+- Git and Github
 
 
 ## RESULTS
