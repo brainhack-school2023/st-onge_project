@@ -102,8 +102,10 @@ Python :
 ## RESULTS
 ---
 
-![image](https://github.com/brainhack-school2023/st-onge_project/assets/57685132/f5f946e3-96c0-4590-8e1e-5671ee3664c4)
+![image](https://github.com/brainhack-school2023/st-onge_project/assets/57685132/0b405e5a-7c3e-4be9-910f-094f86cf158f)
 
+
+![image](https://github.com/brainhack-school2023/st-onge_project/assets/57685132/561fe72c-c9f1-4132-9f93-be949d30f6c6)
 
 
 ![regression_plots](https://github.com/brainhack-school2023/st-onge_project/assets/57685132/40ff403c-f77a-490f-a397-7b3532867daf)
