@@ -56,6 +56,9 @@ Matlab :
 - [Matlab Parallel Computing Toolbox](https://www.mathworks.com/products/parallel-computing.html)
 - [Matlab Optimization Toolbox](https://www.mathworks.com/products/optimization.html)
 
+### Following NODDI fitting : 
+- The [Spinal Cord Toolbox](https://spinalcordtoolbox.com/) (De Leener et al., 2017)
+
 ### For data analysis : 
 Python :
 - [`matplotlib`](https://matplotlib.org/)
@@ -90,5 +93,5 @@ Python :
 ## REFERENCES
 ---
 
-
+De Leener B, Levy S, Dupont SM, Fonov VS, Stikov N, Louis Collins D, Callot V, Cohen-Adad J. SCT: Spinal Cord Toolbox, an open-source software for processing spinal cord MRI data. Neuroimage 2017.
 
