@@ -2,7 +2,9 @@
 
 
 # Identifying Potential Biomarkers for Parkinson’s Disease Using Neurite Orientation Dispersion and Diffusion Imaging (NODDI) 
-
+---
+About me
+---
 <a href="https://github.com/samuellestonge">
    <img src="https://avatars.githubusercontent.com/u/57685132?v=4" width="100px;" alt=""/>
    <br /><sub><b>Samuelle St-Onge </b></sub>
