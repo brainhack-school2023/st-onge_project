@@ -29,13 +29,13 @@ My project aims to use an existing open-source NODDI toolbox and adapt it to a s
 
 ## OBJECTIVES
 ---
-#### The main objectives for this project were: 
+### The main objectives for this project were: 
 
 
 ![image](https://github.com/brainhack-school2023/st-onge_project/assets/57685132/a6f20407-3086-46a9-9708-cbb05f4fc480)
 
 
-#### My personal objectives for this project were: 
+### My personal objectives for this project were: 
 
 
 
@@ -58,7 +58,8 @@ My project aims to use an existing open-source NODDI toolbox and adapt it to a s
 
 ![image](https://github.com/brainhack-school2023/st-onge_project/assets/57685132/54f759f4-462b-4d9c-8c86-4f56b0f763e0)
 
-![image](https://github.com/brainhack-school2023/st-onge_project/assets/57685132/c92bb22c-6806-4338-b75a-dd95761c9d67)
+![image](https://github.com/brainhack-school2023/st-onge_project/assets/57685132/65864e5a-aa2c-471f-a3dd-ff5ccbe9f2d2)
+
 
 ## PROJECT SUMMARY 
 ---
