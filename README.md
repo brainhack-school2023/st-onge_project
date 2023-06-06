@@ -52,7 +52,7 @@ My project aims to use an existing open-source NODDI toolbox and adapt it to a s
 
 ### For NODDI fitting :
 Matlab : 
-- [NODDI Matlab Toolbox](http://mig.cs.ucl.ac.uk/index.php?n=Tutorial.NODDImatlab) from UCL Microstructure Imaging Group
+- [NODDI Matlab Toolbox](http://mig.cs.ucl.ac.uk/index.php?n=Tutorial.NODDImatlab) (UCL Microstructure Imaging Group, 2021)
 - [Matlab Parallel Computing Toolbox](https://www.mathworks.com/products/parallel-computing.html)
 - [Matlab Optimization Toolbox](https://www.mathworks.com/products/optimization.html)
 
@@ -93,5 +93,7 @@ Python :
 ## REFERENCES
 ---
 
-De Leener B, Levy S, Dupont SM, Fonov VS, Stikov N, Louis Collins D, Callot V, Cohen-Adad J. SCT: Spinal Cord Toolbox, an open-source software for processing spinal cord MRI data. Neuroimage 2017.
+De Leener B, Levy S, Dupont SM, Fonov VS, Stikov N, Louis Collins D, Callot V, Cohen-Adad J. 2017. SCT: Spinal Cord Toolbox, an open-source software for processing spinal cord MRI data. Neuroimage. <https://spinalcordtoolbox.com/user_section/citing_sct.html>
+
+UCL Microstructure Imaging Group. 2021. NODDI Matlab Toolbox. <http://mig.cs.ucl.ac.uk/index.php?n=Tutorial.NODDImatlab>.
 
