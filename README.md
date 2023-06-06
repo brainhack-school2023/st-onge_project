@@ -57,22 +57,25 @@ Following NODDI fitting, the second main objective was to extract the NODDI metr
   <img src="https://github.com/brainhack-school2023/st-onge_project/assets/57685132/f727afd4-ffea-4ed1-b612-e2a47e3fae12">
 </p>
 
-### Long-term goal
+### Long-term objective :
 
 As a long-term goal, this project aims to identify potential biomarkers for Parkinson's disease using the extracted NODDI metrics.
 
-### My personal objectives for this project were: 
-
+### Personal objectives : 
 
 
 ## DATA
 ---
+For this project, I have used a spinal cord dataset from some of our collaborators at McGill University. This dataset contains a total of 113 subjects, from which 87 have been diagnosed with Parkinson's disease at various stages of the disease ("low", "medium" and "advanced" stages) and the remaining 26 are healthy control subjects. 
 
+The dataset contains other common MRI modalities, such as T1-weigthed and T2-weighted images. However, for the scope of BrainHack School, I have decided to focus only on the diffusion images and use NODDI.
 
-
+#### Why this dataset?
+I have chosen this specific dataset, since it comes from our collaborators at McGill and is part of a larger study, where we will be extracting and analyzing metrics from other MRI modalities to see if we can identify potential biomarkers for Parkinson's disease in the spinal cord. Also, to my knowledge, there are no similar public dataset available. 
 
 ## TOOLS AND METHODS
 ---
+
 
 ![image](https://github.com/brainhack-school2023/st-onge_project/assets/57685132/0583b4c0-5d8c-40b5-9adf-4d2d486674bb)
 
