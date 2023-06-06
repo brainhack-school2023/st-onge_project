@@ -4,7 +4,7 @@
 # Identifying Potential Biomarkers for Parkinson’s Disease Using Neurite Orientation Dispersion and Diffusion Imaging (NODDI) 
 
 ## ABOUT ME 
----
+
 <a href="https://github.com/samuellestonge">
    <img src="https://avatars.githubusercontent.com/u/57685132?v=4" width="100px;" alt=""/>
    <br /><sub><b>Samuelle St-Onge </b></sub>
@@ -13,7 +13,7 @@
 Hi everyone! My name is Samuelle St-Onge and I am a first year PhD student at Polytechnique Montréal, Canada. Prior to my PhD, I also did a master's in healthcare technology engineering at ÉTS in Montréal, as well as a Bachelor's degree in Mechanical engineering at Université de Moncton, New Brunswick, Canada. During my PhD, most of my work will be focused on spinal cord imaging for pediatric populations. 
 
 ## PROJECT DEFINITION
----
+
 ### Parkinson's disease
 Parkinson’s disease is a neurogenerative disease for which we currently do not have any cure. Although there are treatment options available, early diagnosis is key to be able to start the treatment early and slow down the progression of the disease. However, since there there is still a lot of things we don't quite understand about Parkinson's disease, it is oftentimes difficult to diagnose at early stages. During this project, I will finding new biomarkers for Parkinson's, which could help diagnose the disease at an earlier stage, therefore being able to start treatment early and slow disease progression. 
 
@@ -41,7 +41,7 @@ My project aims to use an existing open-source NODDI toolbox and adapt it to a s
 - To our knowledge, NODDI in the spinal cord for Parkinson's disease patients has not yet been studied
 
 ## OBJECTIVES
----
+
 ### Main objectives : 
 The main objectives of this project were :
 
@@ -65,7 +65,7 @@ As a long-term goal, this project aims to identify potential biomarkers for Park
 
 
 ## DATA
----
+
 For this project, I have used a spinal cord dataset from some of our collaborators at McGill University. This dataset contains a total of 113 subjects, from which 87 have been diagnosed with Parkinson's disease at various stages of the disease ("low", "medium" and "advanced" stages) and the remaining 26 are healthy control subjects. 
 
 The dataset contains other common MRI modalities, such as T1-weigthed and T2-weighted images. However, for the scope of BrainHack School, I have decided to focus only on the diffusion images and use NODDI.
@@ -100,7 +100,7 @@ Python :
 
 
 ## RESULTS
----
+
 
 ### 
 ![image](https://github.com/brainhack-school2023/st-onge_project/assets/57685132/0b405e5a-7c3e-4be9-910f-094f86cf158f)
@@ -114,7 +114,7 @@ Python :
 
 
 ## DELIVERABLES
----
+
 
    ![image](https://github.com/brainhack-school2023/st-onge_project/assets/57685132/ed1381bc-9cbf-4733-8fbb-7a4e13cced9b) [Matlab script to perform multi-subject NODDI fitting](https://github.com/brainhack-school2023/st-onge_project/blob/main/scripts/NODDI_multi-subject_fitting.m) using the [NODDI Matlab Toolbox](http://mig.cs.ucl.ac.uk/index.php?n=Tutorial.NODDImatlab) (UCL Microstructure Imaging Group, 2021) 
 
@@ -125,15 +125,15 @@ Python :
 
 
 ## LIMITATIONS AND FUTURE WORK
----
+
 
 
 ## CONCLUSION
----
+
 
 
 ## REFERENCES
----
+
 
 De Leener B, Levy S, Dupont SM, Fonov VS, Stikov N, Louis Collins D, Callot V, Cohen-Adad J. 2017. SCT: Spinal Cord Toolbox, an open-source software for processing spinal cord MRI data. Neuroimage. <https://spinalcordtoolbox.com/user_section/citing_sct.html>
 
