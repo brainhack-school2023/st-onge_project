@@ -118,9 +118,9 @@ Python :
 
 ![image](https://github.com/brainhack-school2023/st-onge_project/assets/57685132/df7ba82c-80ad-4866-999b-17d345ad6bdc) 1. A [Matlab script to perform multi-subject NODDI fitting](https://github.com/brainhack-school2023/st-onge_project/blob/main/scripts/NODDI_multi-subject_fitting.m) using the [NODDI Matlab Toolbox](http://mig.cs.ucl.ac.uk/index.php?n=Tutorial.NODDImatlab) (UCL Microstructure Imaging Group, 2021) 
 
-3. A [Python script to compute average NODDI metrics](https://github.com/brainhack-school2023/st-onge_project/blob/main/scripts/average_image_metrics.py) and display average images for each subject category (control subjects, low PD, medium PD and advanced PD)
+![image](https://github.com/brainhack-school2023/st-onge_project/assets/57685132/ff655256-96bd-4fa4-8053-be0526b3f4e1) 2. A [Python script to compute average NODDI metrics](https://github.com/brainhack-school2023/st-onge_project/blob/main/scripts/average_image_metrics.py) and display average images for each subject category (control subjects, low PD, medium PD and advanced PD)
 
-5. A [Python script to perform data analysis](https://github.com/brainhack-school2023/st-onge_project/blob/main/scripts/data_analysis_NODDI_metrics.py), i.e. regression plots to display and compare metrics (such as ODI, NDI and Viso) with Parkinson's disease progression. 
+![image](https://github.com/brainhack-school2023/st-onge_project/assets/57685132/68fadbff-17a3-437d-a9a9-593f07b8a57b) 3. A [Python script to perform data analysis](https://github.com/brainhack-school2023/st-onge_project/blob/main/scripts/data_analysis_NODDI_metrics.py), i.e. regression plots to display and compare metrics (such as ODI, NDI and Viso) with Parkinson's disease progression. 
 
 
 
