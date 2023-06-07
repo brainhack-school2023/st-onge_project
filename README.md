@@ -13,7 +13,7 @@
 
 Hi everyone! My name is Samuelle St-Onge and I am a first year PhD student in biomedical engineering at Polytechnique Montréal, Canada. Prior to my PhD, I also did a master's in healthcare technology engineering at ÉTS in Montréal, as well as a Bachelor's degree in Mechanical engineering at Université de Moncton, New Brunswick, Canada. During my PhD, most of my work will be focused on spinal cord imaging for pediatric populations. 
 
-## PROJECT DEFINITION
+## 1.  PROJECT DEFINITION
 
 ### Parkinson's disease
 Parkinson’s disease is a neurogenerative disease for which we currently do not have any cure. Although there are treatment options available, early diagnosis is key to be able to start the treatment early and slow down the progression of the disease. However, since there there is still a lot of things we don't quite understand about Parkinson's disease, it is oftentimes difficult to diagnose at early stages. During this project, I will be exploring the use of NODDI (a diffusion MRI technique) applied to spinal cord images in the case of Parkinson's disease. More specifically, I will be applying NODDI to spinal cord images acquired from Parkison's disease patients at various stages of the disease to identify potential biomarkers for Parkinson's disease, with the ultimate goal of  helping clinicians diagnose the disease at an earlier stage, thus allowing early treatment to slow the progression of the disease. 
@@ -43,7 +43,7 @@ My project aims to use an existing open-source NODDI toolbox to perform NODDI fi
 - Spinal cord lesions have been recorded in Parkinson's disease patients (Tredici et al., 2012)
 - To our knowledge, NODDI in the spinal cord for Parkinson's disease patients has not yet been studied
 
-## OBJECTIVES
+## 2.  OBJECTIVES
 
 ### Main objectives : 
 The main objectives of this project were :
@@ -68,7 +68,7 @@ As a long-term goal, this project aims to identify potential biomarkers for Park
 
 During this project, my personal objectives were to apply the neuroimaging data analysis skills I have learned during BrainHack School and to learn the basics of diffusion MRI and NODDI fitting. I also wanted to get familiar using images in NITFI format and datasets in BIDS, and to apply new tools and concepts that will be essential for my PhD.  
 
-## DATA
+## 3.  DATA
 
 For this project, I have used a spinal cord dataset from our collaborators at McGill University. This dataset contains a total of 113 subjects, from which 87 have been diagnosed with Parkinson's disease at various stages of the disease ("low", "medium" and "advanced" stages) and the remaining 26 are healthy control subjects. 
 
@@ -77,7 +77,7 @@ The dataset contains other common MRI modalities, such as T1-weigthed and T2-wei
 #### Why this dataset?
 I have chosen this specific dataset, since it is part of a larger study with our collaborators at McGill, where we will be extracting and analyzing metrics from other MRI modalities to see if we can identify potential biomarkers for Parkinson's disease in the spinal cord. Also, to my knowledge, there are no similar public dataset available. 
 
-## TOOLS AND METHODS
+## 4.  TOOLS AND METHODS
 
 
 
@@ -105,7 +105,7 @@ Python :
 - Git and Github
 
 
-## RESULTS
+## 5.  RESULTS
 
 
 ### 
@@ -119,7 +119,7 @@ Python :
 
 
 
-## DELIVERABLES
+## 6.  DELIVERABLES
 
 
    ![image](https://github.com/brainhack-school2023/st-onge_project/assets/57685132/ed1381bc-9cbf-4733-8fbb-7a4e13cced9b) [Matlab script to perform multi-subject NODDI fitting](https://github.com/brainhack-school2023/st-onge_project/blob/main/scripts/NODDI_multi-subject_fitting.m) using the [NODDI Matlab Toolbox](http://mig.cs.ucl.ac.uk/index.php?n=Tutorial.NODDImatlab) (UCL Microstructure Imaging Group, 2021) 
@@ -138,14 +138,14 @@ Python :
 ### For the NODDI metric analysis : 
 
 
-## CONCLUSION
+## 7.  CONCLUSION
 As a new PhD student, BrainHack school was a great opportunity for me to learn about the basics of neuroscience imaging and data analysis. Although there are still some improvements to be made regarding my project, I look forward to apply the tools and skills I have learned during BrainHack School to work on improving what I have implemented so far. 
 
 <p align="center">
   <img src="https://github.com/brainhack-school2023/st-onge_project/assets/57685132/f3f6012a-75e9-4f59-9361-058dc0e1e7a8">
 </p>
 
-## REFERENCES
+## 8.  REFERENCES
 
 De Leener B, Levy S, Dupont SM, Fonov VS, Stikov N, Louis Collins D, Callot V, Cohen-Adad J. 2017. SCT: Spinal Cord Toolbox, an open-source software for processing spinal cord MRI data. Neuroimage. <https://spinalcordtoolbox.com/user_section/citing_sct.html>
 
