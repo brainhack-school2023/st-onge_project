@@ -116,12 +116,14 @@ Following NODDI fitting, I decided to perform registration on the output metrics
 To perform the registration, I used the [`Spinal Cord Toolbox (SCT)`](https://spinalcordtoolbox.com/index.html) and followed the recommended steps in the documentation. 
 
 The following diagram shows a summary of the `Spinal Cord Toolbox` pipeline for registration to the [`PAM50 template`](https://spinalcordtoolbox.com/overview/concepts/pam50.html?highlight=pam50) with DWI images : 
+
 ![image](https://github.com/brainhack-school2023/st-onge_project/assets/57685132/fff88b6a-7c3e-430c-b4b1-76cba46fbdd2)
 
 *Detailed explanations for each of these steps can be found in the [Spinal Cord Toolbox DWI tutorial](https://spinalcordtoolbox.com/user_section/tutorials/diffusion-weighted-mri/template-registration-for-dmri.html). 
 
 #### Metric extraction using the Spinal Cord Toolbox
 Following NODDI fitting, to extract the values of the ODI, NDI and Viso metrics (which were all in NIFTI format following the NODDI fitting process with Matlab), I used the command [`sct_extract_metric`](https://spinalcordtoolbox.com/user_section/tutorials/diffusion-weighted-mri/extracting-dti-from-specific-regions.html) from the `Spinal Cord Toolbox`. The following diagram shows a summary of the command amd the arguments that were used for my project : 
+
 ![image](https://github.com/brainhack-school2023/st-onge_project/assets/57685132/3a0798dc-31d0-4344-b172-0e62c97bec6d)
 
 The command `sct_extract_metric` outputs a .csv file for the metric from the file specified in the `-i` argument. For this specific project, I chose the labels 50, 51 and 52 with the `-l` argument, which correspond to the spinal cord, white matter and gray matter. I also chose to extract metrics from C2 to C5, using the `-vert` argument. 
