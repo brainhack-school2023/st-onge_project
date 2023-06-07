@@ -130,14 +130,25 @@ The command `sct_extract_metric` outputs a .csv file for the metric from the fil
 
 ## 5.  RESULTS
 
+### Computing average metrics
 
+Following the registration to the PAM50 template, I have written a [Python script to compute average metrics](https://github.com/brainhack-school2023/st-onge_project/blob/main/scripts/average_image_metrics.py) and display them as images. The following image shows an example of the average orientation dispersion index (ODI) for each subject category (control, low PD, medium PD and advanced PD).
 
 ![image](https://github.com/brainhack-school2023/st-onge_project/assets/57685132/87377dc2-df84-4e68-99f1-dc09762d48b6)
 
+By looking at the image above, we can notice an offset between the images used to compute the average. This is most likely due to a problem with the registration step. Following BrainHack School, I would like to try the registration with different parameters to see if I can fix this offset. 
+
+### Regression plots
+
+I have also written a [Python script for data analysis](https://github.com/brainhack-school2023/st-onge_project/blob/main/scripts/data_analysis_NODDI_metrics.py), which takes the metrics from the .csv files obtained with the `sct_extract_metric` command to do regression plots. The image below shows an example of the regression plots that can be achieved with this script.
 
 ![image](https://github.com/brainhack-school2023/st-onge_project/assets/57685132/c206c463-c9a7-4560-8993-d9b77110df48)
 
+The plots are divided by vertebrae level (in this example, from C2 to C5) as well as by label (white matter, gray matter and spinal cord). In each plot, we can observe the metric with the progression of the disease (from control subjects to advanced Parkinson's disease subjects). 
 
+In this specific project, since I have used only 42 subjects, there is not enough data to draw any conclusions, nor identify potential biomarkers for Parkinson's disease. Also, future versions of the Python script should include a regression model with p-values, to be able to perform a more rigorous statistical analysis. 
+
+In future work, after having improved the python script to include p-values, I would like to perform the analysis for the entire dataset (113 subjects). By repeating the analysis with the entire dataset, I would suspect seeing an increase in ODI in the white matter and a decrease in ODI in the gray matter, since these have been linked to neurodegeneration according to literature (Zhang et al., 2012). 
 
 ## 6.  DELIVERABLES
 
@@ -151,10 +162,19 @@ The command `sct_extract_metric` outputs a .csv file for the metric from the fil
 ## 7.  LIMITATIONS AND FUTURE WORK
 
 ### For the NODDI fitting : 
+Following BrainHack School, I would like to pre-process the entire dataset, by also adding [motion correction using the Spinal Cord Toolbox](https://spinalcordtoolbox.com/user_section/tutorials/diffusion-weighted-mri/motion-correction-for-dmri.html). 
 
+I would also like to use a larger mask to perform the NODDI fitting. As I mentionned in the "Methods" section above, in this project I used segmentation files as a mask for the NODDI fitting. However, it would be interesting to try a mask that is larger than the segmentation of the spinal cord to see if it can help reduce potential partial volume effect. 
+
+Furthermore, I would like to try performing the registration to the PAM50 template prior to the NODDI fitting, to be able to extract the metric values and compute average images dirrectly from the output metrics. 
 
 ### For the NODDI metric analysis : 
 
+Regarding the metric analysis, I would like to try the registration to the PAM50 template with different parameters to fix the offset I have with the current results. 
+
+For the regression plots, it would be important to consider the age as a control variable, to avoid overestimating the effect of Parkinson's disease progression when performing the regression analysis. 
+
+Finally, I would like to incorporate a regression model with p-values to perform more rirogous statistics on the different NODDI metrics. 
 
 ## 8.  CONCLUSION
 As a new PhD student, BrainHack school was a great opportunity for me to learn about the basics of neuroscience imaging and data analysis. Although there are still some improvements to be made regarding my project, I look forward to apply the tools and skills I have learned during BrainHack School to work on improving what I have implemented so far. 
