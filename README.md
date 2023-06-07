@@ -79,31 +79,52 @@ I have chosen this specific dataset, since it is part of a larger study with our
 
 ## 4.  TOOLS AND METHODS
 
+### Tools
 
-
-the following diagram summarizes the key stages of the pipeline used for my project : 
-
-![image](https://github.com/brainhack-school2023/st-onge_project/assets/57685132/0583b4c0-5d8c-40b5-9adf-4d2d486674bb)
-
-### For NODDI fitting :
+#### For NODDI fitting :
 Matlab : 
 - [NODDI Matlab Toolbox](http://mig.cs.ucl.ac.uk/index.php?n=Tutorial.NODDImatlab) (UCL Microstructure Imaging Group, 2021)
 - [Matlab Parallel Computing Toolbox](https://www.mathworks.com/products/parallel-computing.html)
 - [Matlab Optimization Toolbox](https://www.mathworks.com/products/optimization.html)
 
-### For registration and NODDI metric extraction : 
+#### For registration and NODDI metric extraction : 
 - The [Spinal Cord Toolbox](https://spinalcordtoolbox.com/) (De Leener et al., 2017)
 
-### For data analysis : 
+#### For data analysis : 
 Python :
 - [`matplotlib`](https://matplotlib.org/)
 - [`nibabel`](https://nipy.org/nibabel/)
 - [`seaborn`](https://seaborn.pydata.org/)
 - [`nilearn`](https://nilearn.github.io/stable/index.html)
 
-### For version control : 
+#### For version control : 
 - Git and Github
 
+### Methods 
+
+The following diagram summarizes the key stages of the methods used for my project : 
+
+![image](https://github.com/brainhack-school2023/st-onge_project/assets/57685132/0583b4c0-5d8c-40b5-9adf-4d2d486674bb)
+
+#### NODDI fitting :
+Starting with the diffusion MRI images from the dataset, I first performed NODDI fitting using the [NODDI Matlab Toolbox](http://mig.cs.ucl.ac.uk/index.php?n=Tutorial.NODDImatlab) (UCL Microstructure Imaging Group, 2021) from UCL Microstructure Imaging Group. Using this toolbox, I wrote a [Matlab script](https://github.com/brainhack-school2023/st-onge_project/blob/main/scripts/NODDI_multi-subject_fitting.m) to be able to perform multi-subject NODDI fitting with a BIDS-compliant dataset. The NODDI Matlab Toolbox also gives the user the option of using the Matlab Parallel Computing Toolbox, which speeds up the fitting process significantly. 
+
+For the inputs, the NODDI Matlab Toolbox requires diffusion MRI files (`sub-PXXX_dwi.nii`, `sub-PXXX.bvec`, `sub-PXXX.bval`). It is also possible to specify a mask, in order to restrict the fitting to a certain region of the image (for example, only the spinal cord). In this specific project, I used segmentation files that had already been performed on 42 subjects prior to BrainHack School, by a previous graduate student. Initially, my goal was to start by performing NODDI fitting and metric analysis for these 42 subjects with the segmentation files, and then go back and segment the remaining subjects and re-run the NODDI fitting and metric analysis pipeline for the whole dataset. Howerver, I did not have enough time to go back and do the segmentation during BrainHack School. For this reason, I decided to focus only on 42 of the 113 subjects in the dataset for my Brainhack School project.
+
+#### Registration to PAM50 template
+Following NODDI fitting, I decided to perform registration on the output metrics to be able to compute an average metric for each subject category : control, low disease, medium disease and advanced disease. 
+To perform the registration, I used the [`Spinal Cord Toolbox (SCT)`](https://spinalcordtoolbox.com/index.html) and followed the recommended steps in the documentation. 
+
+The following diagram shows a summary of the `Spinal Cord Toolbox` pipeline for registration to the [`PAM50 template`](https://spinalcordtoolbox.com/overview/concepts/pam50.html?highlight=pam50) with DWI images : 
+![image](https://github.com/brainhack-school2023/st-onge_project/assets/57685132/fff88b6a-7c3e-430c-b4b1-76cba46fbdd2)
+
+*Detailed explanations for each of these steps can be found in the [Spinal Cord Toolbox DWI tutorial](https://spinalcordtoolbox.com/user_section/tutorials/diffusion-weighted-mri/template-registration-for-dmri.html). 
+
+#### Metric extraction using the Spinal Cord Toolbox
+Following NODDI fitting, to extract the values of the ODI, NDI and Viso metrics (which were all in NIFTI format following the NODDI fitting process with Matlab), I used the command [`sct_extract_metric`](https://spinalcordtoolbox.com/user_section/tutorials/diffusion-weighted-mri/extracting-dti-from-specific-regions.html) from the `Spinal Cord Toolbox`. The following diagram shows a summary of the command amd the arguments that were used for my project : 
+![image](https://github.com/brainhack-school2023/st-onge_project/assets/57685132/3a0798dc-31d0-4344-b172-0e62c97bec6d)
+
+The command `sct_extract_metric` outputs a .csv file for the metric from the file specified in the `-i` argument. For this specific project, I chose the labels 50, 51 and 52 with the `-l` argument, which correspond to the spinal cord, white matter and gray matter. I also chose to extract metrics from C2 to C5, using the `-vert` argument. 
 
 ## 5.  RESULTS
 
