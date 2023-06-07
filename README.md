@@ -50,7 +50,7 @@ The main objectives of this project were :
 
 #### 1. Perform NODDI fitting
 
-More specifically, the project aims to perform NODDI fitting on a diffusion MRI dataset with Parkinson's disease patients at various stages of the disease, as well as control subjects. The goal was to use a pre-existing NODDI toolbox (for example, a Matlab Toolbox), and to write a script to be able to perform multi-subject fitting using said toolbox. Since NODDI fitting is computationally expensive, I wanted to implement some sort of parallel computing to be able to speed up the process for all my subjects. 
+More specifically, the project aims to perform NODDI fitting on a diffusion MRI dataset with Parkinson's disease patients at various stages of the disease, as well as control subjects. The goal was to use a pre-existing NODDI toolbox and to write a script to be able to perform multi-subject fitting using said toolbox. Since NODDI fitting is computationally expensive, I wanted to implement some sort of parallel computing to be able to speed up the process for all my subjects. 
 
 #### 2. Extract and analyze NODDI metrics
 
@@ -66,19 +66,19 @@ As a long-term goal, this project aims to identify potential biomarkers for Park
 
 ### Personal objectives : 
 
+During this project, my personal objectives were to apply the neuroimaging data analysis skills I have learned during BrainHack School and to learn the basics of diffusion MRI and NODDI fitting. I also wanted to get familiar using images in NITFI format and datasets in BIDS, and to apply new tools and concepts that will be essential for my PhD.  
 
 ## DATA
 
 For this project, I have used a spinal cord dataset from some of our collaborators at McGill University. This dataset contains a total of 113 subjects, from which 87 have been diagnosed with Parkinson's disease at various stages of the disease ("low", "medium" and "advanced" stages) and the remaining 26 are healthy control subjects. 
 
-The dataset contains other common MRI modalities, such as T1-weigthed and T2-weighted images. However, for the scope of BrainHack School, I have decided to focus only on the diffusion images and use NODDI.
+The dataset contains other common MRI modalities, such as T1-weigthed and T2-weighted images. However, for the scope of BrainHack School, I have decided to focus only on diffusion images and NODDI.
 
 #### Why this dataset?
 I have chosen this specific dataset, since it comes from our collaborators at McGill and is part of a larger study, where we will be extracting and analyzing metrics from other MRI modalities to see if we can identify potential biomarkers for Parkinson's disease in the spinal cord. Also, to my knowledge, there are no similar public dataset available. 
 
 ## TOOLS AND METHODS
 ---
-
 
 ![image](https://github.com/brainhack-school2023/st-onge_project/assets/57685132/0583b4c0-5d8c-40b5-9adf-4d2d486674bb)
 
