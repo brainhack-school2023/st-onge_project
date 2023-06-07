@@ -33,7 +33,7 @@ The most common metrics that can be extracted from NODDI (Mitchell et al., 2019)
 ![image](https://github.com/brainhack-school2023/st-onge_project/assets/57685132/817b3ce2-6291-44d0-ac00-b4f3d18e0756)
 
 ### Project summary 
-My project aims to use an existing open-source NODDI toolbox and adapt it to a spinal cord diffusion MRI dataset containing both healthy subjects and subjects diagnosed with Parkinson's disease. Then, using the python data analysis tools and skills I have learned during BrainHack School, I will analyze the extracted metrics from the NODDI model fitting to explore potential biomarkers for Parkinson's disease.
+My project aims to use an existing open-source NODDI toolbox to perform NODDI fitting of a spinal cord diffusion MRI dataset containing both healthy subjects and subjects diagnosed with Parkinson's disease. Then, using the data analysis tools and skills I have learned during BrainHack School, I have written a Python script to analyze the extracted metrics from the NODDI model fitting, which will then help me compare the metrics with the progression of the disease and identify potential biomarkers for Parkinson's disease.
 
 #### Why NODDI for Parkinson's disease?
 - Literature has shown an interest in diffusion MRI to identify potential Parkinson's disease biomarkers in brain images (Zhang et al., 2012)
