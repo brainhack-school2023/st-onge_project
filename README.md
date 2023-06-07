@@ -24,11 +24,13 @@ In recent work, diffusion MRI has shown a potential interest for finding biomark
 #### What is NODDI? 
 NODDI is a diffusion MRI technique which aims to extract metrics based on the morphology of neurites, which are composed of dendrites and axons. 
 
-The most common metrics that can be extracted from NODDI are : 
+The most common metrics that can be extracted from NODDI (Mitchell et al., 2019) are : 
 
-1. Orientation Dispersion Index (ODI)
-2. Neurite Density Index (NDI) 
-3. Isotropic Volume Fraction (Viso) 
+1. Orientation Dispersion Index (ODI) : Measures the variability in neurite orientation
+2. Neurite Density Index (NDI) : Measures the density of neurites
+3. Isotropic Volume Fraction (Viso) : Measures the fractional volume of extracellular fluid 
+
+![image](https://github.com/brainhack-school2023/st-onge_project/assets/57685132/817b3ce2-6291-44d0-ac00-b4f3d18e0756)
 
 ### Project summary 
 My project aims to use an existing open-source NODDI toolbox and adapt it to a spinal cord diffusion MRI dataset containing both healthy subjects and subjects diagnosed with Parkinson's disease. Then, using the python data analysis tools and skills I have learned during BrainHack School, I will analyze the extracted metrics from the NODDI model fitting to explore potential biomarkers for Parkinson's disease.
@@ -145,17 +147,13 @@ As a new PhD student, BrainHack school was a great opportunity for me to learn a
 De Leener B, Levy S, Dupont SM, Fonov VS, Stikov N, Louis Collins D, Callot V, Cohen-Adad J. 2017. SCT: Spinal Cord Toolbox, an open-source software for processing spinal cord MRI data. Neuroimage. <https://spinalcordtoolbox.com/user_section/citing_sct.html>
 
 Del Tredici, Kelly et Heiko Braak. 2012. « Spinal cord lesions in sporadic Parkinson’s disease ». Acta Neuropathologica, vol. 124, no 5, p. 643‑664. <https://doi.org/10.1007/s00401-012-1028-y>.
-![image](https://github.com/brainhack-school2023/st-onge_project/assets/57685132/be80fb43-7d08-42ad-89a1-55cfe54b89fc)
 
 Grussu, Francesco, Torben Schneider, Hui Zhang, Daniel C. Alexander et Claudia A. M. Wheeler–Kingshott. 2015. « Neurite orientation dispersion and density imaging of the healthy cervical spinal cord in vivo ». NeuroImage, vol. 111, p. 590‑601. <https://doi.org/10.1016/j.neuroimage.2015.01.045>.
 
 Mitchell, Trina, Derek B. Archer, Winston T. Chu, Stephen A. Coombes, Song Lai, Bradley J. Wilkes, Nikolaus R. McFarland, Michael S. Okun, Mieniecia L. Black, Ellen Herschel, Tanya Simuni, Cynthia Comella, Tao Xie, Hong Li, Todd B. Parrish, Ajay S. Kurani, Daniel M. Corcos et David E. Vaillancourt. 2019. « Neurite orientation dispersion and density imaging (NODDI) and free‐water imaging in Parkinsonism ». Human Brain Mapping, vol. 40, no 17, p. 5094‑5107. <https://doi.org/10.1002/hbm.24760>.
-![image](https://github.com/brainhack-school2023/st-onge_project/assets/57685132/7fc1a565-3f78-470c-a172-0a5507e267f3)
 
 UCL Microstructure Imaging Group. 2021. NODDI Matlab Toolbox. <http://mig.cs.ucl.ac.uk/index.php?n=Tutorial.NODDImatlab>.
 
 Wang, Nian, Jieying Zhang, Gary Cofer, Yi Qi, Robert J. Anderson, Leonard E. White et G. Allan Johnson. 2019. « Neurite orientation dispersion and density imaging of mouse brain microstructure ». Brain Structure and Function, vol. 224, no 5, p. 1797‑1813. <https://doi.org/10.1007/s00429-019-01877-x>.
-![image](https://github.com/brainhack-school2023/st-onge_project/assets/57685132/7e3f7706-211d-46cc-8831-eb34ef25bb34)
 
 Zhang, Hui, Torben Schneider, Claudia A. Wheeler-Kingshott et Daniel C. Alexander. 2012. « NODDI: Practical in vivo neurite orientation dispersion and density imaging of the human brain ». NeuroImage, vol. 61, no 4, p. 1000‑1016. <https://doi.org/10.1016/j.neuroimage.2012.03.072>.
-![image](https://github.com/brainhack-school2023/st-onge_project/assets/57685132/8de33d11-c3ff-4931-89ce-cdb8676ffbb6)
