@@ -78,7 +78,10 @@ The dataset contains other common MRI modalities, such as T1-weigthed and T2-wei
 I have chosen this specific dataset, since it is part of a larger study with our collaborators at McGill, where we will be extracting and analyzing metrics from other MRI modalities to see if we can identify potential biomarkers for Parkinson's disease in the spinal cord. Also, to my knowledge, there are no similar public dataset available. 
 
 ## TOOLS AND METHODS
----
+
+
+
+the following diagram summarizes the key stages of the pipeline used for my project : 
 
 ![image](https://github.com/brainhack-school2023/st-onge_project/assets/57685132/0583b4c0-5d8c-40b5-9adf-4d2d486674bb)
 
