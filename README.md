@@ -131,14 +131,11 @@ The command `sct_extract_metric` outputs a .csv file for the metric from the fil
 ## 5.  RESULTS
 
 
-### 
-![image](https://github.com/brainhack-school2023/st-onge_project/assets/57685132/0b405e5a-7c3e-4be9-910f-094f86cf158f)
+
+![image](https://github.com/brainhack-school2023/st-onge_project/assets/57685132/87377dc2-df84-4e68-99f1-dc09762d48b6)
 
 
-
-
-![image](https://github.com/brainhack-school2023/st-onge_project/assets/57685132/0e7c4d10-4bf0-4861-8fed-dd1711cfdb34)
-
+![image](https://github.com/brainhack-school2023/st-onge_project/assets/57685132/c206c463-c9a7-4560-8993-d9b77110df48)
 
 
 
@@ -151,9 +148,7 @@ The command `sct_extract_metric` outputs a .csv file for the metric from the fil
 
    ![image](https://github.com/brainhack-school2023/st-onge_project/assets/57685132/fa1ff39b-cef1-4d3b-a699-55679dc7ef47) [Python script to perform data analysis](https://github.com/brainhack-school2023/st-onge_project/blob/main/scripts/data_analysis_NODDI_metrics.py), i.e. regression plots to display and compare metrics (such as ODI, NDI and Viso) with Parkinson's disease progression. 
 
-
-
-## LIMITATIONS AND FUTURE WORK
+## 7.  LIMITATIONS AND FUTURE WORK
 
 ### For the NODDI fitting : 
 
@@ -161,14 +156,14 @@ The command `sct_extract_metric` outputs a .csv file for the metric from the fil
 ### For the NODDI metric analysis : 
 
 
-## 7.  CONCLUSION
+## 8.  CONCLUSION
 As a new PhD student, BrainHack school was a great opportunity for me to learn about the basics of neuroscience imaging and data analysis. Although there are still some improvements to be made regarding my project, I look forward to apply the tools and skills I have learned during BrainHack School to work on improving what I have implemented so far. 
 
 <p align="center">
   <img src="https://github.com/brainhack-school2023/st-onge_project/assets/57685132/f3f6012a-75e9-4f59-9361-058dc0e1e7a8">
 </p>
 
-## 8.  REFERENCES
+## REFERENCES
 
 De Leener B, Levy S, Dupont SM, Fonov VS, Stikov N, Louis Collins D, Callot V, Cohen-Adad J. 2017. SCT: Spinal Cord Toolbox, an open-source software for processing spinal cord MRI data. Neuroimage. <https://spinalcordtoolbox.com/user_section/citing_sct.html>
 
