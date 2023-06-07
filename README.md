@@ -70,12 +70,12 @@ During this project, my personal objectives were to apply the neuroimaging data 
 
 ## DATA
 
-For this project, I have used a spinal cord dataset from some of our collaborators at McGill University. This dataset contains a total of 113 subjects, from which 87 have been diagnosed with Parkinson's disease at various stages of the disease ("low", "medium" and "advanced" stages) and the remaining 26 are healthy control subjects. 
+For this project, I have used a spinal cord dataset from our collaborators at McGill University. This dataset contains a total of 113 subjects, from which 87 have been diagnosed with Parkinson's disease at various stages of the disease ("low", "medium" and "advanced" stages) and the remaining 26 are healthy control subjects. 
 
 The dataset contains other common MRI modalities, such as T1-weigthed and T2-weighted images. However, for the scope of BrainHack School, I have decided to focus only on diffusion images and NODDI.
 
 #### Why this dataset?
-I have chosen this specific dataset, since it comes from our collaborators at McGill and is part of a larger study, where we will be extracting and analyzing metrics from other MRI modalities to see if we can identify potential biomarkers for Parkinson's disease in the spinal cord. Also, to my knowledge, there are no similar public dataset available. 
+I have chosen this specific dataset, since it is part of a larger study with our collaborators at McGill, where we will be extracting and analyzing metrics from other MRI modalities to see if we can identify potential biomarkers for Parkinson's disease in the spinal cord. Also, to my knowledge, there are no similar public dataset available. 
 
 ## TOOLS AND METHODS
 ---
