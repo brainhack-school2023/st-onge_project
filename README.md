@@ -134,7 +134,9 @@ The command `sct_extract_metric` outputs a .csv file for the metric from the fil
 
 Following the registration to the PAM50 template, I have written a [Python script to compute average metrics](https://github.com/brainhack-school2023/st-onge_project/blob/main/scripts/average_image_metrics.py) and display them as images. The following image shows an example of the average orientation dispersion index (ODI) for each subject category (control, low PD, medium PD and advanced PD).
 
-![image](https://github.com/brainhack-school2023/st-onge_project/assets/57685132/87377dc2-df84-4e68-99f1-dc09762d48b6)
+<p align="center">
+  <img src="https://github.com/brainhack-school2023/st-onge_project/assets/57685132/87377dc2-df84-4e68-99f1-dc09762d48b6">
+</p>
 
 By looking at the image above, we can notice an offset between the images used to compute the average. This is most likely due to a problem with the registration step. Following BrainHack School, I would like to try the registration with different parameters to see if I can fix this offset. 
 
