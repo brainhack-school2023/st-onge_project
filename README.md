@@ -1,6 +1,7 @@
 <p align="center">
-  <img src="https://github.com/brainhack-school2023/st-onge_project/assets/57685132/457891a1-b524-4345-9c54-db9c5b5a48bd">
+  <img src="https://github.com/brainhack-school2023/st-onge_project/assets/57685132/d3082033-5fbe-49c7-9fc0-c3c27a253b1f">
 </p>
+
 # Identifying Potential Biomarkers for Parkinson’s Disease Using Neurite Orientation Dispersion and Diffusion Imaging (NODDI)
 
 ## ABOUT ME 
