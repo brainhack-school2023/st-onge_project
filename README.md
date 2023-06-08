@@ -144,7 +144,9 @@ By looking at the image above, we can notice an offset between the images used t
 
 I have also written a [Python script for data analysis](https://github.com/brainhack-school2023/st-onge_project/blob/main/scripts/data_analysis_NODDI_metrics.py), which takes the metrics from the .csv files obtained with the `sct_extract_metric` command to do regression plots. The image below shows an example of the regression plots that can be achieved with this script.
 
-![image](https://github.com/brainhack-school2023/st-onge_project/assets/57685132/7f2783f1-7038-42a0-aff7-72da5fb66a05)
+<p align="center">
+  <img src="https://github.com/brainhack-school2023/st-onge_project/assets/57685132/7f2783f1-7038-42a0-aff7-72da5fb66a05">
+</p>
 
 The plots are divided by vertebrae level (in this example, from C2 to C5) as well as by label (white matter, gray matter and spinal cord). In each plot, we can observe the metric with the progression of the disease (from control subjects to advanced Parkinson's disease subjects). 
 
